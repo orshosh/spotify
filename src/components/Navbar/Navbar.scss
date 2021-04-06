@@ -1,0 +1,67 @@
+.Navbar{
+
+  ul{
+    list-style-type: none;
+  }
+
+
+  .items-list{
+    margin: 0;
+    padding-left: 30px;
+
+    .item-logo{
+      padding-top: 49px;
+
+      .logo{
+        width: 109px;
+        height: 60px;
+        padding-left: 26px;
+      }
+
+    }
+
+    .item {
+      width: 210px;
+      height: 55px;
+
+      &.active {
+        background: rgba(29, 185, 84, 0.15);
+        border-radius: 10px;
+      }
+
+      .wrapper {
+        padding-left: 30px;
+        padding-top: 18px;
+
+        .link {
+          vertical-align: bottom;
+
+          width: 49px;
+          height: 21px;
+          text-decoration: none;
+
+          font-family: Rubik;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 21px;
+
+          color: #191414;
+
+        }
+
+        .icon {
+          vertical-align: middle;
+
+          width: 20.18px;
+          height: 21.6px;
+          padding-right: 22.82px;
+        }
+      }
+    }
+
+  }
+
+
+}
+

@@ -2,26 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53276304-4c4f-43cc-851b-fac0c1e84fb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/browse_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/Play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/bar_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/bar_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/bar_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/bar_prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/controller_icons/prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/home_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/liked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/liked_songs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/liked_songs_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/not_liked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pause_line_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/play_line_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1qZzgs9wm3QzyViN77USBwPxvUK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test_wix/final/entry-level-exam" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\97254\IdeaProjects\spotify_project\src\components" />
+      <recent name="C:\Users\97254\IdeaProjects\spotify_project\src\components\Navbar" />
+      <recent name="C:\Users\97254\IdeaProjects\spotify_project\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -48,17 +107,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617302014870</updated>
-      <workItem from="1617302018055" duration="403000" />
+      <workItem from="1617302018055" duration="22470000" />
+      <workItem from="1617628919035" duration="20044000" />
     </task>
+    <task id="LOCAL-00001" summary="The first push">
+      <created>1617302446725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617302446725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The first push" />
+    <option name="LAST_COMMIT_MESSAGE" value="The first push" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1617302301073">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617649184909">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617302301073" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617649184909" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1617570563571" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1617302446077">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617302446077" />
+    <state x="-493" y="456" key="FileChooserDialogImpl" timestamp="1617558400040">
+      <screen x="-1920" y="9" width="1920" height="1080" />
+    </state>
+    <state x="-493" y="456" key="FileChooserDialogImpl/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617558400040" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1617648830244">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617648830244" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1617648830244">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617648830244" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1617648830244">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617648830244" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1617648830244">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617648830244" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1617302461672">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617302461672" />
   </component>
 </project>
