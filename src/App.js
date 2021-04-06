@@ -11,13 +11,17 @@ class App extends React.Component{
         return(
             <div className="App">
                 <Router>
+                    <div className={'wrapper'}>
                     <Navbar/>
+                    <div className={'page'}>
+                        <Switch>
+                            <Route exact path={"/"} component={HomePage}/>
+                            <Route path={"/Browse"} component={BrowsePage}/>
+                            <Route path={"/LikedSongs"} component={LikedSongsPage}/>
+                        </Switch>
+                    </div>
+                    </div>
 
-                    <Switch>
-                        <Route exact path={"/"} component={HomePage}/>
-                        <Route path={"/Browse"} component={BrowsePage}/>
-                        <Route path={"/LikedSongs"} component={LikedSongsPage}/>
-                    </Switch>
                 </Router>
 
             </div>
