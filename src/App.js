@@ -1,18 +1,28 @@
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
+import React from "react";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import HomePage from "./components/HomePage/HomePage";
+import BrowsePage from "./components/BrowsePage/BrowsePage";
+import LikedSongsPage from "./components/LikedSongsPage/LikedSongsPage";
 
-function App() {
-  return (
-    <div className="App">
-        <div className={'sprint-navbar'}>
-            <Navbar/>
-        </div>
-        <div className="page">
+class App extends React.Component{
+    render(){
+        return(
+            <div className="App">
+                <Router>
+                    <Navbar/>
 
-        </div>
+                    <Switch>
+                        <Route exact path={"/"} component={HomePage}/>
+                        <Route path={"/Browse"} component={BrowsePage}/>
+                        <Route path={"/LikedSongs"} component={LikedSongsPage}/>
+                    </Switch>
+                </Router>
 
-    </div>
-  );
+            </div>
+        )
+    }
 }
 
 export default App;

@@ -1,4 +1,11 @@
 .Navbar{
+  position: static;
+  width: 270px;
+  height: 1080px;
+  left: -1px;
+  top: 0;
+
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
   ul{
     list-style-type: none;
