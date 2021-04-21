@@ -6,6 +6,10 @@ import likedIcone from "../../assets/liked_songs_icon.png";
 import logo from "../../assets/logo.png";
 import {NavLink} from "react-router-dom";
 
+
+
+
+
 class Navbar extends React.Component{
 
     constructor() {
@@ -35,23 +39,22 @@ class Navbar extends React.Component{
                         <img className="logo" src={logo}/>
                     </li>
                     <li className={`item ${'Home' === this.state.active ? 'active' : ''}`}>
-                        <div className={'wrapper'}>
+                        <div className={'wrapper_navItem'}>
                             <img className="icon" src={homeIcon}/>
                             <NavLink className="link" activeClassName={'link-active'} exact to={'/'} onClick={()=>this.clickHandler('Home')} > Home</NavLink>
                         </div>
                     </li>
                     <li className={`item ${'Browse' === this.state.active ? 'active' : ''}`}>
-                        <div className={'wrapper'}>
+                        <div className={'wrapper_navItem'}>
                             <img className="icon" src={browseIcone}/>
                             <NavLink className="link" activeClassName={'link-active'} to="/Browse" onClick={()=>this.clickHandler('Browse')}>Browse</NavLink>
                         </div>
 
                     </li>
                     <li className={`item ${'Liked songs' === this.state.active ? 'active' : ''}`}>
-                        <div className={'wrapper'}>
+                        <div className={'wrapper_navItem'}>
                             <img className="icon" src={likedIcone}/>
                             <NavLink className="link" activeClassName={'link-active'}  to="/LikedSongs" onClick={()=>this.clickHandler('Liked songs')}>Liked songs</NavLink>
-
                         </div>
                     </li>
                 </ul>

@@ -1,0 +1,47 @@
+.containerCard{
+  width: 215px;
+
+
+  .playlist_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 8px;
+
+  }
+
+  .details_container{
+    width: 157px;
+    height: 60px;
+    padding: 25px 48px 0px 10px;
+
+
+    .playlist_title{
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #191414;
+      padding-bottom: 5px;
+
+    }
+    .playlist_description{
+
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #646464;
+
+
+    }
+
+
+
+  }
+
+
+
+
+}

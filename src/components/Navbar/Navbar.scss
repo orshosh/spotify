@@ -1,10 +1,7 @@
 .Navbar{
-  position: fixed;
   width: 270px;
-  height: 1080px;
-  left: -1px;
-  top: 0;
-
+  height: 100%;
+  position: fixed;
   background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 
   ul{
@@ -13,7 +10,6 @@
 
 
   .items-list{
-    margin: 0;
     padding-left: 30px;
 
     .item-logo{
@@ -36,18 +32,16 @@
         border-radius: 10px;
       }
 
-      .wrapper {
+      .wrapper_navItem {
         padding-left: 30px;
         padding-top: 18px;
 
         .link {
           vertical-align: bottom;
-
-          width: 49px;
           height: 21px;
           text-decoration: none;
 
-          font-family: Rubik;
+          font-family: 'Rubik', sans-serif;
           font-style: normal;
           font-weight: 300;
           font-size: 18px;

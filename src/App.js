@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Navbar from "./components/Navbar/Navbar";
 import React from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
@@ -11,19 +11,18 @@ class App extends React.Component{
         return(
             <div className="App">
                 <Router>
-                    <div className={'wrapper'}>
-                    <Navbar/>
-                    <div className={'page'}>
-                        <Switch>
-                            <Route exact path={"/"} component={HomePage}/>
-                            <Route path={"/Browse"} component={BrowsePage}/>
-                            <Route path={"/LikedSongs"} component={LikedSongsPage}/>
-                        </Switch>
-                    </div>
-                    </div>
+                        <div className={'navbar'}>
+                            <Navbar/>
+                        </div>
+                        <div className={'page'}>
+                            <Switch>
+                                <Route exact path={"/"} component={HomePage}/>
+                                <Route path={"/Browse"} component={BrowsePage}/>
+                                <Route path={"/LikedSongs"} component={LikedSongsPage}/>
+                            </Switch>
+                        </div>
 
                 </Router>
-
             </div>
         )
     }

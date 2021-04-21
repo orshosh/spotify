@@ -1,14 +1,15 @@
 import React from "react";
+import Playlist from "../Playlist/Playlist";
+import "./HomePage.scss";
 
 
 class HomePage extends React.Component{
 
     render() {
         return(
-            <h1>
-                "home"
-            </h1>
-
+            <div className={"home"}>
+                <Playlist/>
+            </div>
 
         );
     }

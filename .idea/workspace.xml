@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53276304-4c4f-43cc-851b-fac0c1e84fb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Playlist/Playlist.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Playlist/Playlist.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test_wix/final/entry-level-exam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../info_sec" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,7 +93,10 @@
       <option name="presentableId" value="Default" />
       <updated>1617302014870</updated>
       <workItem from="1617302018055" duration="22470000" />
-      <workItem from="1617628919035" duration="33453000" />
+      <workItem from="1617628919035" duration="34661000" />
+      <workItem from="1617881532142" duration="10526000" />
+      <workItem from="1618477101279" duration="1188000" />
+      <workItem from="1618932158485" duration="16385000" />
     </task>
     <task id="LOCAL-00001" summary="The first push">
       <created>1617302446725</created>
@@ -106,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617721994512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="page name">
+      <created>1617723446641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617723446641</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +136,8 @@
     <MESSAGE value="The first push" />
     <MESSAGE value="static navbar" />
     <MESSAGE value="Make the Nav Items clickable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make the Nav Items clickable" />
+    <MESSAGE value="page name" />
+    <option name="LAST_COMMIT_MESSAGE" value="page name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Inspections" timestamp="1617696266726">
@@ -128,30 +149,30 @@
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721946761" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1617570563571" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1617721993880">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1617723446132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721993880" />
-    <state x="-493" y="456" key="FileChooserDialogImpl" timestamp="1617558400040">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617723446132" />
+    <state x="-493" y="456" key="FileChooserDialogImpl" timestamp="1618249652615">
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
-    <state x="-493" y="456" key="FileChooserDialogImpl/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617558400040" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1617721912582">
+    <state x="-493" y="456" key="FileChooserDialogImpl/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1618249652615" />
+    <state width="1237" height="22" key="GridCell.Tab.0.bottom" timestamp="1618937701465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721912582" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1617721912582">
+    <state width="1237" height="22" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1618937701465" />
+    <state width="1237" height="22" key="GridCell.Tab.0.center" timestamp="1618937701465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721912582" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1617721912582">
+    <state width="1237" height="22" key="GridCell.Tab.0.center/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1618937701465" />
+    <state width="1237" height="22" key="GridCell.Tab.0.left" timestamp="1618937701465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721912582" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1617721912582">
+    <state width="1237" height="22" key="GridCell.Tab.0.left/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1618937701465" />
+    <state width="1237" height="22" key="GridCell.Tab.0.right" timestamp="1618937701465">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721912582" />
+    <state width="1237" height="22" key="GridCell.Tab.0.right/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1618937701465" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1617698461684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -200,9 +221,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.3.right/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617698461684" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1617721995997">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1617723448391">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721995997" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617723448391" />
+    <state x="297" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1618998375154">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1618998375154" />
   </component>
 </project>

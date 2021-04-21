@@ -1,0 +1,30 @@
+.App {
+    height: 100%;
+  background: #F1F7F1;
+  font-family: 'Rubik', sans-serif;
+
+
+  display: flex;
+
+      .navbar{
+        width: 270px;
+      }
+      .page{
+        width: calc(100% - 270px);
+
+      }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
