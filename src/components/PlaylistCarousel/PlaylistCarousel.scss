@@ -1,0 +1,57 @@
+.playlistCarouselContainer{
+  padding-left: 141px;
+  padding-right: 244.45px;
+  padding-top: 200px;
+
+  header{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+
+    .title{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 33px;
+      color: #191414;
+
+    }
+    .arrow {
+      border: solid;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      width: 11.05px;
+      height: 11.05px;
+
+      &.right {
+        margin-left: 17.29px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        &.able{
+          color: #C4C4C4;
+        }
+      }
+
+      &.left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        &.able{
+          color: #C4C4C4;
+        }
+
+      }
+    }
+  }
+
+  .wrapper{
+    display: flex;
+
+  }
+
+}
+
+
+
+
+
+

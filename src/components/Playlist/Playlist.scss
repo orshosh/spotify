@@ -1,5 +1,6 @@
 .containerCard{
-  width: 215px;
+  flex: 1;
+  display: inline-block;
 
 
   .playlist_img {
@@ -12,10 +13,8 @@
   }
 
   .details_container{
-    width: 157px;
-    height: 60px;
-    padding: 25px 48px 0px 10px;
-
+    width: 215px;
+    padding: 25px 0 0 10px;
 
     .playlist_title{
       font-weight: 400;
