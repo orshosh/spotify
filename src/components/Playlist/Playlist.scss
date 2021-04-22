@@ -2,19 +2,15 @@
   flex: 1;
   display: inline-block;
 
-
   .playlist_img {
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    padding-left: 7px;
-    padding-right: 8px;
-
   }
 
   .details_container{
     width: 215px;
-    padding: 25px 0 0 10px;
+    padding: 20px 0 0 10px;
 
     .playlist_title{
       font-weight: 400;

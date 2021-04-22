@@ -1,17 +1,17 @@
 import React from "react";
 import "./HomePage.scss";
-
 import PlaylistCarousel from "../PlaylistCarousel/PlaylistCarousel";
-
-const data = require('../../data');
+import homePageList from '../../api';
 
 class HomePage extends React.Component{
 
     render() {
         return(
-            <div>
+            <div className={'homeContainer'}>
                 <div>
-                <PlaylistCarousel title={"Featured playlist"} data={data.playlists}/>
+                    {homePageList.map((playlist,i)=>(
+                        <PlaylistCarousel title={playlist.name} data={playlist.data}/>
+                    ))}
                 </div>
             </div>
 
