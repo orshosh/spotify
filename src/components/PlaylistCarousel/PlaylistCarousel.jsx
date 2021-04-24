@@ -1,9 +1,16 @@
 import React from "react";
 import "./PlaylistCarousel.scss";
 import Playlist from "../Playlist/Playlist";
-import {PlaylistProps} from "../../api";
 
 const CAROUSEL_SIZE = 5;
+
+export type PlaylistProps={
+    description: string,
+    image_url: string,
+    name: string,
+    playlist_id: string
+
+};
 
 class PlaylistCarousel extends React.Component{
 
@@ -15,7 +22,6 @@ class PlaylistCarousel extends React.Component{
     render() {
         const fullPlaylist:PlaylistProps[] = this.props.data;
         const playlists:PlaylistProps[] = fullPlaylist.slice((this.state.carousel_number-1)*CAROUSEL_SIZE,this.state.carousel_number*CAROUSEL_SIZE);
-        console.log(fullPlaylist);
         return(
             <div className={'playlistCarouselContainer'}>
                 <header>
@@ -33,8 +39,6 @@ class PlaylistCarousel extends React.Component{
             </div>
         );
     }
-
-
 }
 
 export default PlaylistCarousel;

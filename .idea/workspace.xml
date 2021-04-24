@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53276304-4c4f-43cc-851b-fac0c1e84fb5" name="Default Changelist" comment="Playlist carousel">
+    <list default="true" id="53276304-4c4f-43cc-851b-fac0c1e84fb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Playlist/Playlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Playlist/Playlist.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PlaylistCarousel/PlaylistCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaylistCarousel/PlaylistCarousel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PlaylistCarousel/PlaylistCarousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlaylistCarousel/PlaylistCarousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +51,11 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test_wix/final/entry-level-exam" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -89,7 +96,7 @@
       <workItem from="1617628919035" duration="34661000" />
       <workItem from="1617881532142" duration="10526000" />
       <workItem from="1618477101279" duration="1188000" />
-      <workItem from="1618932158485" duration="41114000" />
+      <workItem from="1618932158485" duration="59906000" />
     </task>
     <task id="LOCAL-00001" summary="The first push">
       <created>1617302446725</created>
@@ -133,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619032755427</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="home page">
+      <created>1619079954125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619079954126</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,9 +160,14 @@
     <MESSAGE value="page name" />
     <MESSAGE value="Playlist component" />
     <MESSAGE value="Playlist carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playlist carousel" />
+    <MESSAGE value="home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1368" y="207" key="#ESLint" timestamp="1619084050980">
+      <screen x="-1920" y="9" width="1920" height="1080" />
+    </state>
+    <state x="-1368" y="207" key="#ESLint/0.0.1280.680/-1920.9.1920.1080@-1920.9.1920.1080" timestamp="1619084050979" />
     <state x="233" y="0" key="#Inspections" timestamp="1617696266726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -158,10 +177,10 @@
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617721946761" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1617570563571" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1619035546775">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1619079953563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1619035546775" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1619079953563" />
     <state x="-493" y="456" key="FileChooserDialogImpl" timestamp="1619012794972">
       <screen x="-1920" y="9" width="1920" height="1080" />
     </state>
@@ -230,10 +249,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.3.right/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1617698461684" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1619032758887">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1619079957909">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1619032758887" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1920.9.1920.1080@0.0.1280.680" timestamp="1619079957909" />
     <state x="297" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1618998375154">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
