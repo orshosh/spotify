@@ -1,14 +1,15 @@
 .App {
-  background: #F1F7F1;
   font-family: 'Rubik', sans-serif;
   display: flex;
 
       .navbar{
         width: 270px;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
       }
       .page{
+        background: #F1F7F1;
         width: calc(100% - 270px);
-
       }
 
 
