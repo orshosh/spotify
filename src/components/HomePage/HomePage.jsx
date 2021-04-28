@@ -13,11 +13,11 @@ class HomePage extends React.Component{
         };
     }
 
-     getHomePlaylistsApi=()=>{
+     async getHomePlaylistsApi(){
         const autho = {
             headers:{'user-access-token':'1ecfbf47-4aa6-458c-b5ce-c607bad6119c'}
         };
-       axios.all([
+       await axios.all([
             axios.get('https://api.sprintt.co/spotify/recently_played_playlists?limit=10',autho),
             axios.get('https://api.sprintt.co/spotify/featured_playlists?limit=10',autho),
             axios.get('https://api.sprintt.co/spotify/mood_playlists?limit=10',autho)
@@ -30,8 +30,8 @@ class HomePage extends React.Component{
         })
     };
 
-    async componentDidMount(){
-        await this.getHomePlaylistsApi();
+     componentDidMount(){
+         this.getHomePlaylistsApi();
     }
 
     render() {

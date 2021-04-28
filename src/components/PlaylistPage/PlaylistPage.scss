@@ -1,0 +1,107 @@
+.playlistPageContainer{
+
+  .header{
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+
+
+    .header-details{
+      color: #F1F1F1;
+      display: flex;
+      justify-content: space-between;
+      padding: 88px 254px 0 109px;
+      text-shadow: 0 0 40px #000000;
+
+      .playlist-details{
+
+        .playlist-name{
+          font-size: 36px;
+          line-height: 43px;
+          font-weight: 400;
+          padding-bottom: 11px;
+        }
+        .playlist-description{
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 400;
+        }
+    }
+      .track-details{
+
+        .songs-number{
+          font-weight: 300;
+          font-size: 36px;
+          line-height: 43px;
+          padding-bottom: 11px;
+        }
+        .track-duration{
+          font-size: 18px;
+          line-height: 21px;
+          font-weight: 400;
+        }
+      }
+
+
+    }
+  }
+
+  .body-playlist{
+    padding: 0 237px 0 114px;
+
+    .filter-container{
+
+      padding-top: 40px;
+      padding-bottom: 38px;
+
+      input{
+        border: none;
+        background: #F1F7F1;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+      }
+
+    }
+
+    .tracks-table {
+      text-align: left;
+      border-collapse: collapse;
+
+      .table-body{
+
+        th{
+          font-weight: 300;
+          font-size: 22px;
+          line-height: 26px;
+          border-bottom: 1px solid #646464 ;
+          padding-bottom: 10px;
+        }
+        td{
+
+          font-size: 22px;
+          line-height: 26px;
+          font-weight: 400;
+          border-bottom: 0.5px solid #646464 ;
+          padding-top: 29px;
+          padding-bottom: 15px;
+
+          .like-icon{
+            width: 19.98px;
+            height: 20px;
+            padding-right: 57px;
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+
+
+}
