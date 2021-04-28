@@ -64,7 +64,7 @@ class PlaylistPage extends React.Component{
         return filterTracks.map((track, i) => {
             const { name,artists_names,album_name,release_date} = track;
             return (
-                <tr className={'songs'} key={i}>
+                <tr className={'song'} key={i}>
                     <td><img className="like-icon" src={likedIcone}/></td>
                     <td>{name}</td>
                     <td>{artists_names}</td>

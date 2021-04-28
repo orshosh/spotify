@@ -50,7 +50,7 @@
   }
 
   .body-playlist{
-    padding: 0 237px 0 114px;
+
 
     .filter-container{
 
@@ -67,11 +67,11 @@
 
     }
 
-    .tracks-table {
+    table {
+      padding: 0 237px 0 114px;
+
       text-align: left;
       border-collapse: collapse;
-
-      .table-body{
 
         th{
           font-weight: 300;
@@ -94,14 +94,14 @@
             height: 20px;
             padding-right: 57px;
           }
-        }
 
+
+        }
+      tr:hover {
+        background: rgba(29, 185, 84, 0.2);
+        border-radius: 10px;}
       }
 
-
-    }
-
   }
-
 
 }
